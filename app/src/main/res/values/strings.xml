@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Bullshit</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_item1">Item1</string>
+    <string name="action_item2">Item2</string>
+    <string name="action_item3">Item3</string>
+
+
+
+    <string-array name="adjectives_m">
+        <item>нативный</item>
+        <item>экосистемный</item>
+        <item>квантовый</item>
+        <item>автономный</item>
+        <item>бесшовный</item>
+        <item>нативный</item>
+        <item>смарт -</item>
+        <item>имитационный</item>
+        <item>предиктивный</item>
+        <item>диджитализированный</item>
+        <item>кросс-функциональный</item>
+        <item>оцифрованный</item>
+        <item>децентрализованный</item>
+        <item>кросс-платформенный</item>
+        <item>кибернетический</item>
+        <item>антропоморфный</item>
+        <item>нейросетевой</item>
+        <item>митигирующий риски</item>
+        <item>симуляционный</item>
+        <item>мобильный</item>
+        <item>транс-эпохальный</item>
+
+    </string-array>
+
+    <string-array name="nouns_m">
+        <item>двойник</item>
+        <item>робот</item>
+        <item>почтальон</item>
+        <item>нефтеконтроль</item>
+        <item>аналитик</item>
+        <item>интегратор</item>
+        <item>ETL</item>
+        <item>аналитик OLAP</item>
+        <item>партнер цифровой повестки</item>
+        <item>диджитал амбассадор</item>
+        <item>директор по работе с данными</item>
+        <item>блокчейн</item>
+        <item>распределенный реестр</item>
+        <item>анализатор</item>
+        <item>эксперт</item>
+        <item>оператор ЭВМ</item>
+        <item>локомотив</item>
+        <item>персонал</item>
+        <item>контроль</item>
+        <item>актив</item>
+        <item>эксперимент</item>
+        <item>продукт</item>
+        <item>клиент</item>
+        <item>дата-майнинг</item>
+        <item>дата-стюарт</item>
+
+    </string-array>
+
+    <string-array name="adjectives_f">
+        <item>нативная</item>
+        <item>экосистемная</item>
+        <item>квантовая</item>
+        <item>автономная</item>
+        <item>бесшовная</item>
+        <item>нативная</item>
+        <item>смарт -</item>
+        <item>имитационная</item>
+        <item>предиктивная</item>
+        <item>диджитализированная</item>
+        <item>кросс-функциональная</item>
+        <item>оцифрованная</item>
+        <item>децентрализованная</item>
+        <item>кросс-платформенная</item>
+        <item>кибернетическая</item>
+        <item>антропоморфная</item>
+        <item>нейросетевая</item>
+        <item>митигирующая риски</item>
+        <item>инновационная</item>
+        <item>эксперементальная</item>
+        <item>поведенческая</item>
+        <item>экосистемная</item>
+        <item>ассиметричная</item>
+        <item>мобильная</item>
+
+    </string-array>
+
+    <string-array name="nouns_f">
+        <item>площадка</item>
+        <item>сеть</item>
+        <item>структура</item>
+        <item>бизнес-ценность</item>
+        <item>интеграционная платформа</item>
+        <item>инфраструктура</item>
+        <item>надежность</item>
+        <item>инновация</item>
+        <item>адоптация ценностного предложения</item>
+        <item>клиентская сеть</item>
+        <item>цифровая конкуренция</item>
+        <item>цифровая стратегия</item>
+        <item>цифровая трансформация</item>
+        <item>цифровая эпоха</item>
+        <item>интеграционная шина</item>
+        <item>интеграция</item>
+        <item>сервисно-ориентированная архитектура</item>
+        <item>архитектура данных</item>
+        <item>конкуренция</item>
+        <item>обработка</item>
+        <item>система</item>
+        <item>дезинтермедиация</item>
+        <item>интермедиация</item>
+        <item>отрасль</item>
+
+    </string-array>
+</resources>
