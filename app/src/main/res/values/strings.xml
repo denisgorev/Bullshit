@@ -4,8 +4,9 @@
     <string name="action_item1">Item1</string>
     <string name="action_item2">Item2</string>
     <string name="action_item3">Item3</string>
-
-
+    <string name="send">Отправить сообщение</string>
+    <string name="hint">Введите сообщение</string>
+    <string name="chooser">Send message via</string>
 
     <string-array name="adjectives_m">
         <item>нативный</item>
