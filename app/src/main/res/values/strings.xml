@@ -30,7 +30,7 @@
         <item>симуляционный</item>
         <item>мобильный</item>
         <item>транс-эпохальный</item>
-
+        <item>эффективный</item>
     </string-array>
 
     <string-array name="nouns_m">
@@ -59,6 +59,7 @@
         <item>клиент</item>
         <item>дата-майнинг</item>
         <item>дата-стюарт</item>
+        <item>искуственный интеллект</item>
 
     </string-array>
 
@@ -87,6 +88,7 @@
         <item>экосистемная</item>
         <item>ассиметричная</item>
         <item>мобильная</item>
+        <item>интеллектуальная</item>
 
     </string-array>
 
@@ -115,6 +117,8 @@
         <item>дезинтермедиация</item>
         <item>интермедиация</item>
         <item>отрасль</item>
+        <item>революция</item>
+        <item>эволюция</item>
 
     </string-array>
 </resources>

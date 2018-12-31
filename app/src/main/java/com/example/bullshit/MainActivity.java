@@ -61,7 +61,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        setAlive();
+    }
+     public void setAlive(){
         textView = (TextView) findViewById(R.id.textView);
         Button button2 = (Button) findViewById(R.id.button2);
         button1 = (Button) findViewById(R.id.button);
@@ -92,10 +94,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int ran = rnd.nextInt(2);
                 if (ran == 0) {
-                    for (int i = 0; i < words.length; i++) {
+                    for (int i = 0; i < words.length-1; i++) {
                         in_adj_m[i] = i;
                     }
-                    for (int i = 0; i < words2.length; i++) {
+                    for (int i = 0; i < words2.length-1; i++) {
                         in_noun_m[i] = i;
                     }
                     int a = getRandom(in_adj_m);
