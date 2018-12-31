@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     int a = getRandom(in_adj_m);
                     int b = getRandom(in_noun_m);
-                    textView.setText(words[a] + " " + words2[b]);
+                    textView.setText(String.format("%s %s", words[a], words2[b]));
                 }
                 else {
                     for (int i = 0; i < words3.length; i++) {
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     int a = getRandom(in_adj_f);
                     int b = getRandom(in_noun_f);
-                    textView.setText(words3[a] + " " + words4[b]);
+                    textView.setText(String.format("%s %s", words3[a], words4[b]));
                 }
             }
         });
