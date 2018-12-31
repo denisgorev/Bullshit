@@ -70,7 +70,9 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String messageText = textView.getText().toString();
                 Intent intent = new Intent(MainActivity.this, Message.class);
+                intent.putExtra(Message.EXTRA_MESSAGE, messageText);
                 startActivity(intent);
             }
         });
