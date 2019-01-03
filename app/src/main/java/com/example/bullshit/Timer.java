@@ -56,7 +56,7 @@ public class Timer extends Activity {
         if (checkBox.isChecked()) {
             wasRunning = running;
             running = false;
-        }
+        }//
 
     }
 
