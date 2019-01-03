@@ -1,5 +1,6 @@
 package com.example.bullshit;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.Image;
@@ -10,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
         switch (id) {
             case R.id.action_settings:
-                Toast.makeText(MainActivity.this, getString(R.string.action_settings), Toast.LENGTH_LONG).show();
+                Intent intentTimer = new Intent(this, Timer.class);
+                startActivity(intentTimer);
                 break;
 
             case R.id.action_item1:
@@ -57,15 +60,18 @@ public class MainActivity extends AppCompatActivity {
         return array[rnd];
     }
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         setAlive();
     }
      public void setAlive(){
         textView = (TextView) findViewById(R.id.textView);
-        Button button2 = (Button) findViewById(R.id.button2);
+        ImageButton button2 = (ImageButton) findViewById(R.id.imageButton);
         button1 = (Button) findViewById(R.id.button);
         imageView = (ImageView) findViewById(R.id.imageView1);
 
@@ -93,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int ran = rnd.nextInt(2);
+
                 if (ran == 0) {
                     for (int i = 0; i < words.length-1; i++) {
                         in_adj_m[i] = i;

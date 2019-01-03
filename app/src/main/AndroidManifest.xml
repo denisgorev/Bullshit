@@ -13,10 +13,12 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Message"></activity>
+        <activity android:name=".Message" />
+        <activity android:name=".Timer"></activity>
     </application>
 
 </manifest>
