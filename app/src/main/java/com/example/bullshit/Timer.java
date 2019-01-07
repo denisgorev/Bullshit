@@ -2,6 +2,7 @@ package com.example.bullshit;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -19,10 +20,12 @@ public class Timer extends Activity {
     private boolean wasRunning;
     ImageButton button;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timer);
+
         checkBox = (CheckBox) findViewById(R.id.checkBox);
         button = (ImageButton) findViewById(R.id.imageButton2);
         button.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +67,7 @@ public class Timer extends Activity {
     protected void onResume() {
 
         super.onResume();
+
         if (checkBox.isChecked()) {
             if (wasRunning) {
                 running = true;
